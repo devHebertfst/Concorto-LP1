@@ -32,6 +32,7 @@ enter-server familia
 list-participants
 create-user poul@gmail.com 1276 poul
 leave-server
+set-server-invite-code familia 4567
 create-server familia
 create-server amigos
 enter-server amigos
