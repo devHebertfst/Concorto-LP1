@@ -1,0 +1,48 @@
+create-user miles@gmail.com 1245 Miles Morales
+create-user miles@gmail.com 145 Miguel ohara
+create-user user@gmail.com
+login miles@gmail.com 1245 12
+login miles@gmail.com
+login miles@gmail.com 1245
+create-server familia 123
+create-server familia
+list-servers 123
+list-servers
+set-serve-desc 123
+set-server-desc amigos Amigo de verdade ta aqui
+set-server-desc familia Este servidor serve como minha casa, sempre estarei nele
+set-server-invite-code amigos 1234
+set-server-invite-code familia 1234 1232
+set-server-invite-code familia 1234
+enter-server familia
+list-participants
+leave-server
+disconnect
+disconnect
+create-user peter@gmail.com 4567 Peter Parker
+login peter@gmail.com 4567
+list-servers
+enter-server familia
+enter-server familia 12345
+enter-server familia 1234
+list-participants
+leave-server
+leave-server
+enter-server familia
+list-participants
+create-user poul@gmail.com 1276 poul
+leave-server
+create-server familia
+create-server amigos
+enter-server amigos
+list-participants
+leave-server
+remove-server familia
+remove-server amigos
+list-servers
+disconnect
+login miles@gmail.com 1245
+remove-server trabalho
+remove-server familia
+list-servers
+quit
